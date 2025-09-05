@@ -10,7 +10,7 @@ try:
     from PySide6.QtCore import QObject, Signal, Slot
     QT_AVAILABLE = True
 except ImportError:
-    QT_AVAILABLE = False
+    QT_AVAILABLE = False 
 
 # Rest of the code wrapped in appropriate checks
 if QT_AVAILABLE:
